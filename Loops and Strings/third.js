@@ -62,3 +62,36 @@ console.log("The length of shyam\tsingh is",str2.length, "here it include \t as 
 
 
 //-----------------strings methods in js---------------
+
+let st="JavaScript";
+st = st.toUpperCase();
+console.log(st);
+
+st = st.toLowerCase();
+console.log(st);
+
+
+ st = st.trim();  //remove whitespaces
+console.log(st);
+// st[2]=st[3]
+// console.log(st)   //not changes as they are immutable
+
+let s="0123456789";
+console.log(s.slice(1,7));
+console.log(s.slice(2));    
+console.log(s.slice());
+
+
+let s1="Java";
+let s2="Script";
+let res=s1.concat(s2); 
+// res=s1+s2
+// res="i am learning "+s1+s2;
+console.log(res);
+
+let rep = "hello";
+rep=rep.replace("h", "y")   //replaceAll() can also be used
+// console.log(rep.replace("h", "y"));
+console.log(rep);
+console.log(rep.charAt(1)); //e
+

@@ -47,7 +47,7 @@ let val1=marvel.shift();
 console.log(val1); //here it will delete from the first.
 
 
-//here slice method works same as for string
+//here slice method works same as for string and slice() method is also use for copy the whole array into new variable if do not pass any parameter inside it.
 
 let arr = [1,2,3,4,5,6,7];
 arr.splice(2,2);  //here it will delete two element at index from 2

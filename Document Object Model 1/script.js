@@ -2,14 +2,18 @@
 // console.log(window.document);
 
 // let res=document.getElementById("heading");
-// console.log(res);  //if not there is any id then return null
+// console.log(res);  //if there is not any id present then it return null
 
 // let res1=document.getElementsByClassName("para");
 // console.log(res1);  //return html collection
 
+//if there is not any classname are present then it return 0 arraycollections
+
+
 // let param = document.getElementsByTagName("p");
 // console.log(param);
 
+//-----------note: we can access the element using queryselector by giving the id, classname, tagname etc.
 
 // let r = document.querySelector("p");
 // console.log(r);

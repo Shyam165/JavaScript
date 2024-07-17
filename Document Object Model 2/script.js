@@ -55,3 +55,25 @@ document.querySelector("body").prepend(newHeading);
 //---------removing the elements--------------------------------
 let para = document.querySelector("p");
 para.remove();
+
+
+//newHeading.remove();
+
+//------------------------------------------------------------------
+//note:Question:1----
+
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "Click me!";
+
+// newBtn.style.color = "White";
+// newBtn.style.backgroundColor = "red";    //here styling is inline css for the element.
+
+// document.querySelector("body").prepend(newBtn);
+
+//Question:2---
+
+// let para=document.querySelector("p");
+// para.classList.add("newClass");  //we can remove also by using remove function()
+
+
+//---------------------------------
